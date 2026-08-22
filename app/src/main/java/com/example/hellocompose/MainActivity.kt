@@ -74,6 +74,11 @@ fun ProfileScreen() {
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
+
+            Text(
+                text = "Informatics",
+                style = MaterialTheme.typography.bodyLarge
+            )
         }
     }
 }
