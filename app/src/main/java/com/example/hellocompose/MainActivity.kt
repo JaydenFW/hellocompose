@@ -55,7 +55,7 @@ fun ProfileScreen() {
         ) {
             Image(
                 painter = painterResource(id = R.drawable.foto_profil),
-                contentDescription = "Foto profil",
+                contentDescription = "Foto profil Jayden Fitzkenzie Wijaya",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(160.dp)
