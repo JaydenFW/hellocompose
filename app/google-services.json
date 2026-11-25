@@ -1,26 +1,40 @@
 {
   "project_info": {
-    "project_number": "000000000000",
-    "project_id": "ganti-dengan-proyek-firebase-anda",
-    "storage_bucket": "ganti-dengan-proyek-firebase-anda.appspot.com"
+    "project_number": "1086639186966",
+    "project_id": "catatanku-jayden",
+    "storage_bucket": "catatanku-jayden.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:000000000000:android:0000000000000000000000",
+        "mobilesdk_app_id": "1:1086639186966:android:61082f66029f54a2a38137",
+        "android_client_info": {
+          "package_name": "com.exampe.ch11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANF1CvPoVithJBMKpcm8SsPap_fxebJ3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086639186966:android:f5fc457b795117dba38137",
         "android_client_info": {
           "package_name": "com.example.ch11"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "000000000000-placeholder.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "PLACEHOLDER_GANTI_DENGAN_FILE_DARI_FIREBASE_CONSOLE"
+          "current_key": "AIzaSyANF1CvPoVithJBMKpcm8SsPap_fxebJ3g"
         }
       ],
       "services": {
