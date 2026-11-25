@@ -1,0 +1,21 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Autentikasi (sudah login) + otorisasi (pemilik berkas)
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    // Hanya JPEG hasil kompresi yang kecil (< 1 MB)
+    function isValidPhoto() {
+      return request.resource.size < 1 * 1024 * 1024
+          && request.resource.contentType == 'image/jpeg';
+    }
+
+    match /users/{userId}/profile.jpg {
+      allow read: if isOwner(userId);
+      allow write: if isOwner(userId) && isValidPhoto();
+    }
+  }
+}
